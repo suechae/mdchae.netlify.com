@@ -88,15 +88,15 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "your@email.com"
+    email = "suechae@gmail.com"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    about_us = "<p>Hi there.</p>"
+    copyright = "Copyright (c) 2017, Uisoo Chae, M.D.; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    logo = "img/logo.png"
+    logo = "img/logo.jpg"
     address = """<p><strong>Universal Ltd.</strong>
         <br>13/25 New Avenue
         <br>Newtown upon River

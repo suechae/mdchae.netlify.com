@@ -24,18 +24,18 @@ paginate = 10
 [[menu.main]]
     name = "Blog"
     url  = "/blog/"
-    weight = 2
+#    weight = 5
 
 [[menu.main]]
     name = "FAQ"
     identifier = "faq"
     url  = "/faq/"
-    weight = 3
+#    weight = 6
 
 [[menu.main]]
     name = "Contact"
     url  = "/contact/"
-    weight = 4
+#    weight = 4
 
 # Top bar social links menu
 
@@ -114,7 +114,7 @@ paginate = 10
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    enable = true
+    enable = false
     text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>

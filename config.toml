@@ -1,4 +1,4 @@
-baseurl = "https://mdchae.org"
+baseurl = "https://mdchae.netlify.com"
 title = "Uisoo Chae, M.D."
 theme = "hugo-universal-theme"
 languageCode = "en-us"

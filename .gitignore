@@ -1,5 +1,3 @@
-public
-
 # History files
 .Rhistory
 .Rapp.history
@@ -33,3 +31,5 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
+.Rproj.user
+

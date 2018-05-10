@@ -23,7 +23,7 @@ enableEmoji = true
 defaultContentLanguage = "en"
 
 [params.info]
-description = "Board-certified Gynecologist"
+description = "산부인과 전문의"
 title404 = "Nothing's here!"
 
 [params.assets]
@@ -79,7 +79,7 @@ titleSeparator = "•"
 #linkedin = "muniftanjim"
 #twitter = "MunifTanjim"
 #telegram = "MunifTanjim"
-google_scholar = "qc6CJjYAAAAJ"
+google_scholar = "J2bg_TAAAAAJ"
 
 [params.comments]
 enable = false

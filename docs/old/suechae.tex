@@ -1,0 +1,215 @@
+\documentclass[12pt,]{article}
+\usepackage[sc, osf]{mathpazo}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+
+
+
+
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\usepackage{kotex}
+
+% Now begins the stuff that I added.
+% ----------------------------------
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\large\bf}
+\subsectionfont{\rmfamily\mdseries\normalsize\itshape}
+
+
+
+% Make parskips rather than indent with lists.
+\usepackage{parskip}
+\usepackage{titlesec}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+
+% Use fontawesome. Note: you'll need TeXLive 2015. Update.
+
+
+% Fancyhdr, as I tend to do with these personal documents.
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{
+\cfoot{\scriptsize  채의수, M.D. - Curriculum Vitae }}
+\rfoot{\scriptsize \thepage/{\hypersetup{linkcolor=black}\pageref{LastPage}}}
+
+% Always load hyperref last.
+\usepackage{hyperref}
+\PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
+
+\hypersetup{unicode=true,
+            pdftitle={채의수, M.D.:  Curriculum Vitae (Curriculum Vitae)},
+            pdfauthor={채의수, M.D.},
+            pdfkeywords={curriculum vitae, Rmarkdown, CV},
+            colorlinks=true,
+            linkcolor=Black,
+            citecolor=Blue,
+            urlcolor=Black,
+            breaklinks=true, bookmarks=true}
+\urlstyle{same}  % don't use monospace font for urls
+
+\begin{document}
+
+
+\centerline{\huge \bf 채의수, M.D.}
+
+\vspace{2 mm}
+
+\hrule
+
+\vspace{2 mm}
+
+
+
+\moveleft.5\hoffset\centerline{ \emph{Email:} \href{mailto:}{\href{mailto:suechae@amc.seoul.kr}{\nolinkurl{suechae@amc.seoul.kr}}} \hspace{1 mm} \emph{Phone:}  82-10-7262-0076  \hspace{1 mm}       | \emph{Updated:} \today}
+
+\vspace{2 mm}
+
+\hrule
+
+
+\section{목적}
+
+분당구 서현동 소재 애플산부인과의 봉직의 지원을 위한 자격 및 진료 능력을
+갖추었음을 보이고자 합니다.
+
+\section{학력}
+
+\textbf{석사} \hfill 2007년 3월 - 2011년 2월\\
+\emph{부산대학교 의학전문대학원 졸업 \textbar{} 의학 전공}
+\hfill 부산광역시
+
+\textbf{학사} \hfill 2001년 9월 - 2005년 5월\\
+\emph{미시간주립대학교 졸업 \textbar{} Pre-med (Human Biology) 전공}
+\hfill 미시간주, 미국
+
+\section{경력}
+
+\textbf{레지던트} \hfill 2013년 9월 - 2017년 8월\\
+\emph{서울아산병원 산부인과} \hfill 서울특별시
+
+\textbf{인턴} \hfill 2012년 9월 - 2013년 8월\\
+\emph{가톨릭중앙의료원} \hfill 서울특별시
+
+\textbf{Research Fellow} \hfill 2011년 3월 - 2012년 8월\\
+\emph{National Cancer Institute, 미국국립보건원} \hfill 메릴랜드주, 미국
+
+\section{면허}
+
+\textbf{산부인과 전문의 (예정)} \hfill 2018년 3월
+
+\textbf{의사면허 (번호: 106498)} \hfill 2011년 2월
+
+\section{소속 학회}\label{-}
+
+\emph{대한산부인과학회} \hfill 2013년 - 현재
+
+\emph{대한생식의학회} \hfill 2013년 - 현재
+
+\emph{대한모체태아의학회} \hfill 2013년 - 현재
+
+\emph{대한산부인과초음파학회} \hfill 2013년 - 현재
+
+\section{수상}
+
+\textbf{전공의 우수 연구 표창장} \hfill 2017년 2월\\
+\emph{서울아산병원장}
+
+\textbf{실습우수상} \hfill 2010년 6월\\
+\emph{양산부산대학교병원 소아청소년과장}
+
+\textbf{서브인턴 장학금} \hfill 2009년 7월\\
+\emph{부산대학교 의학전문대학원장}
+
+\textbf{호주 Flinders 의대 연수 장학금} \hfill 2008년 7월\\
+\emph{부산대학교 의학전문대학원장}
+
+\section{논문}
+
+Chae, U, M. Lee, H. Kim, H. Won, K. Kim, H. Goo, J. Ko and J. Park
+(2017). ``Prenatal diagnosis of isolated coronary arteriovenous fistula:
+a first case report in Korea''. In: \emph{Obstetrics and Gynecology
+Science (대한산부인과학회지)} In Press.
+
+Chae, U, J. Y. Min, S. H. Kim, H. J. Ihm, Y. S. Oh, S. Y. Park, H. D.
+Chae, C. Kim and B. M. Kang (2016). ``Decreased Progesterone Receptor
+B/A Ratio in Endometrial Cells by Tumor Necrosis Factor-Alpha and
+Peritoneal Fluid from Patients with Endometriosis''. In: \emph{Yonsei
+medical journal} 57.6, pp.~1468-1474.
+
+Arnold, M. A, C. A. Arnold, G. Li, U. Chae, R. El-Etriby, C. R. Lee and
+M. Tsokos (2013). ``A unique pattern of INI1 immunohistochemistry
+distinguishes synovial sarcoma from its histologic mimics''. In:
+\emph{Human pathology} 44.5, pp.~881-887.
+
+Jeong, D. W, J. G. Lee, S. Lee, Y. J. Kim, J. H. Bae, D. H. Kim, Y. H.
+Yi, Y. H. Cho and U. Chae (2012). ``Potential effect of insulin
+resistance and cardiovascular risk factors on metabolic syndrome in
+subjects with normal fasting plasma glucose levels''. In:
+\emph{International Journal of Diabetes in Developing Countries} 32.2,
+pp.~75-81.
+
+\section{자격 사항}\label{-}
+
+\textbf{임상연구개론: KGCP 포함} \hfill 2017년 5월\\
+\emph{질병관리본부}
+
+\textbf{심화심폐소생술 ACLS Provider} \hfill 2015년 5월\\
+\emph{미국심장학회}
+
+\section{외국어}
+
+\textbf{영어 - 상급} \emph{외국인환자 진료 가능, 영문 논문 및 전문적
+글작성 가능}
+
+\section{추천인}
+
+\textbf{노환중, M.D./Ph.D.}\\
+양산부산대학교 병원장, 부산대학교 의학전문대학원 이비인후과교실 교수
+
+\textbf{김종혁, M.D./Ph.D.}\\
+서울아산병원 기획실장, 울산대학교 의과대학 산부인과교실 교수
+
+\textbf{Maria Tsokos, M.D.}\\
+하버드의대 해부병리학교실 교수
+
+\end{document}

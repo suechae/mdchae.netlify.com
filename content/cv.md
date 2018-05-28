@@ -8,6 +8,9 @@ tags: []
 menu: 'main'
 ---
 
+[PDF 보기](https://suechae.github.io/cv.pdf)
+
+
 Curriculum Vitae
 ================
 채의수, M.D.

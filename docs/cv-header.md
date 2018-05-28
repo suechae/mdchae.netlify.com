@@ -8,3 +8,6 @@ tags: []
 menu: 'main'
 ---
 
+[PDF 보기](https://suechae.github.io/cv.pdf)
+
+

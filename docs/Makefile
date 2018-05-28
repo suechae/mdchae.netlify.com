@@ -7,4 +7,4 @@ pdf:
 	Rscript -e "rmarkdown::render('index.Rmd', output_format = 'pdf_document', output_file = 'cv.pdf', encoding = 'UTF-8')"
 
 blog:
-	cat cv-header.md README.md > ../content/blog/cv.md
+	cat cv-header.md README.md > ../content/cv.md

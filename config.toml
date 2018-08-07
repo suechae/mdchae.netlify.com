@@ -1,5 +1,5 @@
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-baseURL = "http://www.mdchae.com"
+baseURL = "http://mdchae.netlify.com"
 title = "Uisoo Chae, M.D."
 
 # for smart copyright line, leave this blank and check [params.copyright]
@@ -108,7 +108,7 @@ page = "/:slug/"
 name = "Repo"
 weight = -10
 identifier = "repository"
-url = "https://github.com/suechae/mdchae.com"
+url = "https://github.com/suechae/mdchae.netlify.com"
 
 [blackfriday]
 hrefTargetBlank = true

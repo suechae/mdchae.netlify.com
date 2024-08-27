@@ -1,15 +1,3 @@
----
-title: CV
-author: ~
-date: '2018-05-22'
-slug: ''
-categories: []
-tags: []
-menu: 'main'
----
-
-[PDF 보기](https://suechae.github.io/mdchae.com/cv.pdf)
-
 Curriculum Vitae
 ================
 채의수, M.D.
@@ -122,8 +110,3 @@ Journal of Diabetes in Developing Countries* 32.2, pp. 75-81.
 **[Maria Tsokos,
 M.D.](https://scholar.google.com/citations?user=BOSmfqgAAAAJ&hl=en)**  
 하버드의대 해부병리학교실 교수
-
-# 과학기술인 등록번호
-
-13081893
-
